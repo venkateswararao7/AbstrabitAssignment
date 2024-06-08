@@ -7,6 +7,10 @@ import Slidecard from "../card/slidecard";
 import BookingCard from '../card/BookingCard';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import utkarsha from "../images/utkarsh.png";
+import bajaj from "../images/bajaj-finance.jpg";
+import shriram from "../images/Shriram_Transport.jpg";
+import mahindra from "../images/images.jpeg";
 export default function Home() {
     return (
         <div className='Home'>
@@ -23,17 +27,17 @@ export default function Home() {
                     </div>
                     <div className="item3">
                         <div className='box-item1'>
-                            <Card background="#F3CCF3" pointcolor="#FF76CE" buttoncolor="#850F8D" image={timematuritychart} heading="Utkarash Small Finance Bank" point1="Highest Interest Rate" point2="RBI Insured" rate="9.10%p.a" />
+                            <Card background="#F3CCF3" pointcolor="#FF76CE" buttoncolor="#850F8D" image={utkarsha} heading="Utkarash Small Finance Bank" point1="Highest Interest Rate" point2="RBI Insured" rate="9.10%p.a" />
                         </div>
                         <div className='box-item2'>
-                            <Card background="#EEF5FF" pointcolor="#6DC5D1" buttoncolor="#615EFC" image={timematuritychart} heading="Bajaj Finserv" point1="Crisl AAA Rated" point2="No Video KYC require" rate="8.80%p.a" />
+                            <Card background="#EEF5FF" pointcolor="#6DC5D1" buttoncolor="#615EFC" image={bajaj} heading="Bajaj Finserv" point1="Crisl AAA Rated" point2="No Video KYC require" rate="8.80%p.a" />
                         </div>
                         <div className='box-item3'>
-                            <Card background="#D6DAC8" pointcolor="#F4EAE0" buttoncolor="black" image={timematuritychart} heading="Shriram Finance" point1="Crisii AAA Rated" point2="No Video KYC require" rate="8.80%p.a" />
+                            <Card background="#D6DAC8" pointcolor="#F4EAE0" buttoncolor="black" image={shriram} heading="Shriram Finance" point1="Crisii AAA Rated" point2="No Video KYC require" rate="8.80%p.a" />
 
                         </div>
                         <div className='box-item4'>
-                            <Card background="#FFA27F" pointcolor="#FFBF78" buttoncolor="red" image={timematuritychart} heading="Mahindra Finance" point1="Crisii AAA Rated" point2="No Video KYC require" rate="8.80%p.a" />
+                            <Card background="#FFA27F" pointcolor="#FFBF78" buttoncolor="red" image={mahindra} heading="Mahindra Finance" point1="Crisii AAA Rated" point2="No Video KYC require" rate="8.80%p.a" />
 
                         </div>
                         <div className='box-item5'>
